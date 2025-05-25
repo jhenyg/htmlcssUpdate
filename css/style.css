@@ -1,3 +1,91 @@
-h1 {
-    color: aqua;
-}
+.wrap{
+    width: 1920px;
+    background: #f8f8f8;
+  }
+  .container{
+    width: 1296px;
+    margin: 0 auto;
+    padding: 80px 0px 0px 0px;
+  }
+  .blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .blog li{
+    width: 416px;
+    margin-bottom: 80px;
+  }
+  
+  .blog-time{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 16px 0px 4px 0px;
+  }
+  .blog-tag{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+  }
+  .blog-tag a{
+    color: #0027D5;
+    text-decoration: none;
+    margin-right: 8px;
+  }
+  .blog-tag a:hover{
+    color: #000;
+  }
+  .hot-tag{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    background: #0027D5;
+    color: #fff !important;
+    border: 1px solid #0027D5;
+    border-radius: 40px;
+    padding: 6px 12px;
+  }
+  .blog h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 8px;
+  }
+  .blog p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #4B4B4B;
+    margin-bottom: 16px;
+  }
+  .blog-read{
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+  .blog-read a{
+    color: #4b4b4b;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    border-radius: 40px;
+  }
+  .blog-read a:hover{
+    background: #0027D5;
+    color: #fff;
+    border: 1px solid #0027D5;
+  }
+  
+  /* Google Font 字型嵌入 */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+  
+  ul, li, h2, p, a{
+    font-family: "Noto Sans TC", sans-serif;
+  }
